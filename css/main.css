@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .gradient-box {
+    @apply w-full h-48 bg-sky-500 rounded-xl
+  }
+}
